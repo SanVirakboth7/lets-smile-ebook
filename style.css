@@ -1,0 +1,50 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0;}
+html, body { width:100%; height:100%;}
+body,ul,li,dl,dt,dd,p,span,textarea,input,select,strong,th,td { font-family:"Verdana",Dotum,Helvetica,AppleGothic,Sans-serif; font-style:inherit; color:inherit;}
+body { font:.75em/1.5em "Verdana",Dotum,Helvetica,AppleGothic,Sans-serif; color:#666; background:url(images/body_bg.gif) repeat; overflow:hidden;}
+img {border: 0;}
+
+
+.wrapHalign {visibility:hidden; height: 50%; margin-top: -384px;}
+.spaceImg {width: 100%; height:768px; background:url(images/space_bg.png) 50% 0 no-repeat;}
+
+#wrap {width: 1024px; height: 768px; margin: 0 auto;}
+	#imgZone {margin: 1px 0 0 0; height: 673px; background:url(images/imgZone_bg.gif) no-repeat; padding: 0px 0px 3px 5px;}
+	#controlZone {background:url(images/control_bg.png) no-repeat; height:53px; padding:10px 3px 0 16px;}
+		.title {float:left; font: bold 14px/31px "Verdana"; color:#aaa;}
+		.black {color:#555;}
+		
+		.iconArea {float:right;}
+			.iconArea ul {list-style:none;}
+			.iconArea ul li {float:left;}
+				.iconArea ul li.spaceL {margin-left:10px;}
+				.iconArea ul li.funcIco {padding: 2px 5px 0 0;}
+				.iconArea ul li.cursor {cursor:pointer;}
+
+.spaceL {position:absolute; cursor:pointer; margin-top: 336px; margin-left: -40px;}
+.spaceR {position:absolute; cursor:pointer; margin-top: 336px; margin-left: 1025px;}
+.closeBtn {position:absolute; top:0px; right: 10px; cursor:pointer;}
+.closeBtn2 {position:absolute; cursor:pointer;margin-top: -25px; margin-left: 990px;}
+
+.zoomImg {display:none;background-color:#fff;border:3px solid #000; position:absolute; margin:0; padding:0;width:100%;height:100%;}
+.zoomPart {display:none;position:absolute;width:100%;height:672px; margin-top:20px; left:0;}
+.zoomPart2 {display:none;position:absolute;width:100%;height:1072px; margin-top:20px; left:0;}
+
+
+.partTable {display:table; background-color:#fff; width:1008px; height:666px; margin:0 auto; border:3px solid #fac71b;}
+.partTablecell {display:table-cell;vertical-align:middle; text-align:center;}
+.tableOver {height: 666px; overflow:auto;}
+.overFlow {overflow:scroll;}
+
+.popUse {width:100%;position: absolute; top:150px;}
+
+.partBg {background:url(images/page/zoom/page9_1.jpg) center no-repeat;}
+
+#imgZone div  {background:url(images/icon/ico_zoom2.png) top right no-repeat;}
+
+.readers {position: absolute;}
+

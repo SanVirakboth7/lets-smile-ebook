@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0;}
+html, body { width:100%; height:100%;}
+body,ul,li,dl,dt,dd,p,span,textarea,input,select,strong,th,td { font-family:"Verdana",Dotum,Helvetica,AppleGothic,Sans-serif; font-style:inherit; color:inherit;}
+body { font:.75em/1.5em "Verdana",Dotum,Helvetica,AppleGothic,Sans-serif; color:#666;}
+div img {cursor:pointer;}
+div img[src="../images/icon/play_s.png"] {z-index:10000; position:relative;}
+div img[src="../images/icon/pause_s.png"] {z-index:10000; position:relative;}
+
+/* 가로사이즈 고정, 세로만 662 or 이미지 세로 크기 */
+.drag0 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page6_1.jpg) center no-repeat;}
+.drag1 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page7_1.jpg) center no-repeat;}
+.drag2 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page7_2.jpg) center no-repeat;}
+.drag3 {position:absolute; width:990px; height:732px; background:url(images/page/zoom/page7_3.jpg) center no-repeat;}
+.drag4 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page8_1.jpg) center no-repeat;}
+.drag5 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page9_1.jpg) center no-repeat;}
+.drag6 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page9_2.jpg) center no-repeat;}
+.drag7 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page9_3.jpg) center no-repeat;}
+.drag8 {position:absolute; width:990px; height:1262px; background:url(images/page/zoom/page10_1.jpg) center no-repeat;}
+.drag9 {position:absolute; width:990px; height:1102px; background:url(images/page/zoom/page11_1.jpg) center no-repeat;}
+.drag10 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page11_2.jpg) center no-repeat;}
+.drag11 {position:absolute; width:990px; height:1200px; background:url(images/page/zoom/page12_1.jpg) center no-repeat;}
+.drag12 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page13_1.jpg) center no-repeat;}
+.drag13 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page13_2.jpg) center no-repeat;}
+.drag14 {position:absolute; width:990px; height:732px; background:url(images/page/zoom/page13_3.jpg) center no-repeat;}
+.drag15 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page14_1.jpg) center no-repeat;}
+.drag16 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page15_1.jpg) center no-repeat;}
+.drag17 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page15_2.jpg) center no-repeat;}
+.drag18 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page15_3.jpg) center no-repeat;}
+.drag19 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page16_1.jpg) center no-repeat;}
+.drag20 {position:absolute; width:990px; height:1062px; background:url(images/page/zoom/page17_1.jpg) center no-repeat;}
+.drag21 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page17_2.jpg) center no-repeat;}
+.drag22 {position:absolute; width:990px; height:1182px; background:url(images/page/zoom/page18_1.jpg) center no-repeat;}
+.drag23 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page19_1.jpg) center no-repeat;}
+.drag24 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page19_2.jpg) center no-repeat;}
+.drag25 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page19_3.jpg) center no-repeat;}
+.drag26 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page20_1.jpg) center no-repeat;}
+.drag27 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page21_1.jpg) center no-repeat;}
+.drag28 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page21_2.jpg) center no-repeat;}
+.drag29 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page21_3.jpg) center no-repeat;}
+.drag30 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page22_1.jpg) center no-repeat;}
+.drag31 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page23_1.jpg) center no-repeat;}
+.drag32 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page23_2.jpg) center no-repeat;}
+.drag33 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page23_3.jpg) center no-repeat;}
+.drag34 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page24_1.jpg) center no-repeat;}
+.drag35 {position:absolute; width:990px; height:1082px; background:url(images/page/zoom/page25_1.jpg) center no-repeat;}
+.drag36 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page25_2.jpg) center no-repeat;}
+.drag37 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page26_1.jpg) center no-repeat;}
+.drag38 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page27_1.jpg) center no-repeat;}
+.drag39 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page27_2.jpg) center no-repeat;}
+.drag40 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page27_3.jpg) center no-repeat;}
+.drag41 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page28_1.jpg) center no-repeat;}
+.drag42 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page29_1.jpg) center no-repeat;}
+.drag43 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page29_2.jpg) center no-repeat;}
+.drag44 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page29_3.jpg) center no-repeat;}
+.drag45 {position:absolute; width:990px; height:1222px; background:url(images/page/zoom/page30_1.jpg) center no-repeat;}
+.drag46 {position:absolute; width:990px; height:1062px; background:url(images/page/zoom/page31_1.jpg) center no-repeat;}
+.drag47 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page31_2.jpg) center no-repeat;}
+.drag48 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page32_1.jpg) center no-repeat;}
+.drag49 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page32_2.jpg) center no-repeat;}
+.drag50 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page33_1.jpg) center no-repeat;}
+.drag51 {position:absolute; width:990px; height:892px; background:url(images/page/zoom/page34_1.jpg) center no-repeat;}
+.drag52 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page34_2.jpg) center no-repeat;}
+.drag53 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page35_1.jpg) center no-repeat;}
+.drag54 {position:absolute; width:990px; height:892px; background:url(images/page/zoom/page35_2.jpg) center no-repeat;}
+.drag55 {position:absolute; width:990px; height:712px; background:url(images/page/zoom/page35_3.jpg) center no-repeat;}
+.drag56 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page36_1.jpg) center no-repeat;}
+.drag57 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page37_1.jpg) center no-repeat;}
+.drag58 {position:absolute; width:990px; height:782px; background:url(images/page/zoom/page37_2.jpg) center no-repeat;}
+.drag59 {position:absolute; width:990px; height:1242px; background:url(images/page/zoom/page38_1.jpg) center no-repeat;}
+.drag60 {position:absolute; width:990px; height:1062px; background:url(images/page/zoom/page39_1.jpg) center no-repeat;}
+.drag61 {position:absolute; width:990px; height:1242px; background:url(images/page/zoom/page39_2.jpg) center no-repeat;}
+.drag62 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page40_1.jpg) center no-repeat;}
+.drag63 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page41_1.jpg) center no-repeat;}
+.drag64 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page41_2.jpg) center no-repeat;}
+.drag65 {position:absolute; width:990px; height:702px; background:url(images/page/zoom/page41_3.jpg) center no-repeat;}
+.drag66 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page42_1.jpg) center no-repeat;}
+.drag67 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page43_1.jpg) center no-repeat;}
+.drag68 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page43_2.jpg) center no-repeat;}
+.drag69 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page43_3.jpg) center no-repeat;}
+.drag70 {position:absolute; width:990px; height:882px; background:url(images/page/zoom/page44_1.jpg) center no-repeat;}
+.drag71 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page44_2.jpg) center no-repeat;}
+.drag72 {position:absolute; width:990px; height:1082px; background:url(images/page/zoom/page45_1.jpg) center no-repeat;}
+.drag73 {position:absolute; width:990px; height:1252px; background:url(images/page/zoom/page45_2.jpg) center no-repeat;}
+.drag74 {position:absolute; width:990px; height:1102px; background:url(images/page/zoom/page46_1.jpg) center no-repeat;}
+.drag75 {position:absolute; width:990px; height:742px; background:url(images/page/zoom/page47_1.jpg) center no-repeat;}
+.drag76 {position:absolute; width:990px; height:660px; background:url(images/page/zoom/page47_2.jpg) center no-repeat;}
+.drag77 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page47_3.jpg) center no-repeat;}
+.drag78 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page48_1.jpg) center no-repeat;}
+.drag79 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page49_1.jpg) center no-repeat;}
+.drag80 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page49_2.jpg) center no-repeat;}
+.drag81 {position:absolute; width:990px; height:702px; background:url(images/page/zoom/page49_3.jpg) center no-repeat;}
+.drag82 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page50_1.jpg) center no-repeat;}
+.drag83 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page51_1.jpg) center no-repeat;}
+.drag84 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page51_2.jpg) center no-repeat;}
+.drag85 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page51_3.jpg) center no-repeat;}
+.drag86 {position:absolute; width:990px; height:1252px; background:url(images/page/zoom/page52_1.jpg) center no-repeat;}
+.drag87 {position:absolute; width:990px; height:1092px; background:url(images/page/zoom/page53_1.jpg) center no-repeat;}
+.drag88 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page53_2.jpg) center no-repeat;}
+.drag89 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page54_1.jpg) center no-repeat;}
+.drag90 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page55_1.jpg) center no-repeat;}
+.drag91 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page55_2.jpg) center no-repeat;}
+.drag92 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page55_3.jpg) center no-repeat;}
+.drag93 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page56_1.jpg) center no-repeat;}
+.drag94 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page57_1.jpg) center no-repeat;}
+.drag95 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page57_2.jpg) center no-repeat;}
+.drag96 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page57_3.jpg) center no-repeat;}
+.drag97 {position:absolute; width:990px; height:1002px; background:url(images/page/zoom/page58_1.jpg) center no-repeat;}
+.drag98 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page58_2.jpg) center no-repeat;}
+.drag99 {position:absolute; width:990px; height:1152px; background:url(images/page/zoom/page59_1.jpg) center no-repeat;}
+.drag100 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page59_2.jpg) center no-repeat;}
+.drag101 {position:absolute; width:990px; height:1152px; background:url(images/page/zoom/page60_1.jpg) center no-repeat;}
+.drag102 {position:absolute; width:990px; height:722px; background:url(images/page/zoom/page61_1.jpg) center no-repeat;}
+.drag103 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page61_2.jpg) center no-repeat;}
+.drag104 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page61_3.jpg) center no-repeat;}
+.drag105 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page62_1.jpg) center no-repeat;}
+.drag106 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page63_1.jpg) center no-repeat;}
+.drag107 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page63_2.jpg) center no-repeat;}
+.drag108 {position:absolute; width:990px; height:732px; background:url(images/page/zoom/page63_3.jpg) center no-repeat;}
+.drag109 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page64_1.jpg) center no-repeat;}
+.drag110 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page65_1.jpg) center no-repeat;}
+.drag111 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page65_2.jpg) center no-repeat;}
+.drag112 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page65_3.jpg) center no-repeat;}
+.drag113 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page66_1.jpg) center no-repeat;}
+.drag114 {position:absolute; width:990px; height:1062px; background:url(images/page/zoom/page67_1.jpg) center no-repeat;}
+.drag115 {position:absolute; width:990px; height:1212px; background:url(images/page/zoom/page67_2.jpg) center no-repeat;}
+.drag116 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page68_1.jpg) center no-repeat;}
+.drag117 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page69_1.jpg) center no-repeat;}
+.drag118 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page69_2.jpg) center no-repeat;}
+.drag119 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page69_3.jpg) center no-repeat;}
+.drag120 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page70_1.jpg) center no-repeat;}
+.drag121 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page71_1.jpg) center no-repeat;}
+.drag122 {position:absolute; width:990px; height:782px; background:url(images/page/zoom/page71_2.jpg) center no-repeat;}
+.drag123 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page72_1.jpg) center no-repeat;}
+.drag124 {position:absolute; width:990px; height:952px; background:url(images/page/zoom/page72_2.jpg) center no-repeat;}
+.drag125 {position:absolute; width:990px; height:1082px; background:url(images/page/zoom/page73_1.jpg) center no-repeat;}
+.drag126 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page73_2.jpg) center no-repeat;}
+.drag127 {position:absolute; width:990px; height:1152px; background:url(images/page/zoom/page74_1.jpg) center no-repeat;}
+.drag128 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page74_2.jpg) center no-repeat;}
+.drag129 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page75_1.jpg) center no-repeat;}
+.drag130 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page76_1.jpg) center no-repeat;}
+.drag131 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page77_1.jpg) center no-repeat;}
+.drag132 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page77_2.jpg) center no-repeat;}
+.drag133 {position:absolute; width:990px; height:732px; background:url(images/page/zoom/page77_3.jpg) center no-repeat;}
+.drag134 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page78_1.jpg) center no-repeat;}
+.drag135 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page79_1.jpg) center no-repeat;}
+.drag136 {position:absolute; width:990px; height:802px; background:url(images/page/zoom/page79_2.jpg) center no-repeat;}
+.drag137 {position:absolute; width:990px; height:1262px; background:url(images/page/zoom/page80_1.jpg) center no-repeat;}
+.drag138 {position:absolute; width:990px; height:1122px; background:url(images/page/zoom/page81_1.jpg) center no-repeat;}
+.drag139 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page81_2.jpg) center no-repeat;}
+.drag140 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page82_1.jpg) center no-repeat;}
+.drag141 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page83_1.jpg) center no-repeat;}
+.drag142 {position:absolute; width:990px; height:1202px; background:url(images/page/zoom/page83_2.jpg) center no-repeat;}
+.drag143 {position:absolute; width:990px; height:732px; background:url(images/page/zoom/page83_3.jpg) center no-repeat;}
+.drag144 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page84_1.jpg) center no-repeat;}
+.drag145 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page85_1.jpg) center no-repeat;}
+.drag146 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page85_2.jpg) center no-repeat;}
+.drag147 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page85_3.jpg) center no-repeat;}
+.drag148 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page86_1.jpg) center no-repeat;}
+.drag149 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page86_2.jpg) center no-repeat;}
+.drag150 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page86_3.jpg) center no-repeat;}
+.drag151 {position:absolute; width:990px; height:1122px; background:url(images/page/zoom/page87_1.jpg) center no-repeat;}
+.drag152 {position:absolute; width:990px; height:1282px; background:url(images/page/zoom/page87_2.jpg) center no-repeat;}
+.drag153 {position:absolute; width:990px; height:1382px; background:url(images/page/zoom/page88_1.jpg) center no-repeat;}
+.drag154 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page88_2.jpg) center no-repeat;}
+.drag155 {position:absolute; width:990px; height:662px; background:url(images/page/zoom/page89_1.jpg) center no-repeat;}
+
+.drag156 {position:absolute; width:990px; height:1302px; background:url(images/page/zoom/page4_1.jpg) center no-repeat;}
+.drag157 {position:absolute; width:990px; height:1302px; background:url(images/page/zoom/page5_1.jpg) center no-repeat;}
+.drag158 {position:absolute; width:990px; height:1122px; background:url(images/page/zoom/page24_2.jpg) center no-repeat;}
+
+
+
+
+/* .drag0 div {position:absolute;} */
+.drag0 div {
+	position: absolute;
+}
+.answerTxt {color:red; font: bold 18px "Verdana";}
+.answerStxt {color:red; font: bold 16px "Verdana";}
+.answerBtxt {color:red; font: bold 20px "Verdana";}
+
+.card {display:none;position:absolute;z-index:20000; }
+.game {display:none;position:absolute; margin-top: -60px;z-index:20000;}
+.fm {display:none;position:absolute; margin-top: -60px;z-index:20000;}
+
+.closeBtn {position:absolute; top:-20px; left: 620px; cursor:pointer;}
+.closeBtn_game {position:absolute; top:605px; left: 940px; cursor:pointer;}
+.closeBtn_fm {position:absolute; top:-20px; left: 900px; cursor:pointer;}

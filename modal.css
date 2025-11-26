@@ -1,0 +1,56 @@
+
+.modal {
+	background-color:#fff;
+	display:none;
+	width:710px;
+	padding:0px;
+	text-align:left;
+	border:2px solid #eee;
+	  opacity:0.8;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-box-shadow: 0 0 50px #ccc;
+	-webkit-box-shadow: 0 0 50px #ccc; 
+} 
+
+.modal h2 {
+	background:url(/img/global/info.png) 0 50% no-repeat;
+	margin:0px;
+	padding:10px 0 10px 45px;
+	border-bottom:1px solid #333;
+	font-size:20px; 
+}
+
+/* 마스크 뛰우기 */
+#mask {  
+	position:absolute;  
+	z-index:9000;  
+	background-color:#000;  
+	display:none;  
+	left:0;
+	top:0;
+} 
+
+/** 팝업으로 뜨는 윈도우 css **/	
+#modal_window{
+	display: none;
+	position:absolute;  
+	left:50%;
+	top:50px;
+	margin-left: -500px;
+	width:1000px;
+	/*height:500px;*/
+	z-index:10000;	  
+}
+
+/** 로딩 윈도우 **/
+#loading {
+	display:none;
+	position:absolute;
+	left:390px;
+	top:300px;	
+	width:400px;
+	height:90px;
+	z-index:1000;
+	background:#ffffff;
+}

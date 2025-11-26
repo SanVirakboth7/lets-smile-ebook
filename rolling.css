@@ -1,0 +1,74 @@
+#container {
+	width:704px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+
+#example {
+	width:704px;
+	height:526px;
+	position:relative;
+}
+
+/*
+	Slideshow style
+*/
+
+#slides {
+	position:absolute;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	If height not specified height will be set by the slide content
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:596px;
+	height:526px;
+	margin: 0 54px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	Offeset for the 20px of padding
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#slides .slide {
+	width:556px;
+	height:481px;
+	padding: 25px 20px 20px 20px;
+	background:url(images/flashcard_bg.png) no-repeat;
+	display:block;
+	text-align:center;
+}
+
+/*
+	Next/prev buttons
+*/
+#slides .next,#slides .prev {
+	position:absolute;
+	top:190px;
+	left:10px;
+	width:38px;
+	height:52px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:655px;
+}
+

@@ -1,0 +1,13 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0;}
+html, body { width:100%; height:100%;}
+body,ul,li,dl,dt,dd,p,span,textarea,input,select,strong,th,td { font-family:"Verdana",Dotum,Helvetica,AppleGothic,Sans-serif; font-style:inherit; color:inherit;}
+body { font:.75em/1.5em "Verdana",Dotum,Helvetica,AppleGothic,Sans-serif; color:#666;;}
+img {border:0; cursor:pointer;}
+
+.cardsound {position:absolute; top: 448px; left:254px;}
+
+.word{position:absolute; top:25px; left:40px; display:none;}

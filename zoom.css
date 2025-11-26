@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0;}
+html, body { width:100%; height:100%;}
+body,ul,li,dl,dt,dd,p,span,textarea,input,select,strong,th,td { font-family:"Verdana",Dotum,Helvetica,AppleGothic,Sans-serif; font-style:inherit; color:inherit;}
+body { font:.75em/1.5em "Verdana",Dotum,Helvetica,AppleGothic,Sans-serif; color:#666; background:url(images/body_bg.gif) repeat;}
+div img {cursor:pointer;}
+div img[src="../images/icon/play_s.png"] {z-index:10000; position:relative;}
+div img[src="../images/icon/pause_s.png"] {z-index:10000; position:relative;}
+
+
+.drag {position:absolute; width:2028px; height:1344px; background:url(images/page/page_01_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag2 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_02_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag3 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_03_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag4 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_04_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag5 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_05_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag6 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_06_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag7 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_07_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag8 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_08_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag9 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_09_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag10 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_10_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag11 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_11_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag12 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_12_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag13 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_13_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag14 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_14_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag15 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_15_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag16 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_16_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag17 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_17_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag18 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_18_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag19 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_19_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag20 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_20_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag21 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_21_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag22 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_22_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag23 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_23_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag24 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_24_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag25 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_25_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag26 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_26_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag27 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_27_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag28 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_28_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag29 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_29_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag30 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_30_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag31 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_31_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag32 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_32_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag33 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_33_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag34 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_34_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag35 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_35_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag36 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_36_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag37 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_37_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag38 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_38_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag39 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_39_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+.drag40 {position:absolute; width:2028px; height:1344px; background:url(images/page/page_40_zoom.jpg) no-repeat;-webkit-background-size: 2028px 1344px;}
+
+.drag div {position:absolute;}
+.answerTxt {color:red; font: bold 22px "Verdana";}
+.answerStxt {color:red; font: bold 16px "Verdana";}
+.card {display:none;position:absolute;z-index:20000;}
+.game {display:none;position:absolute; margin-top: -50px;z-index:20000;}
+
+.closeBtn {position:absolute; top:-20px; left: 620px; cursor:pointer;}
+.closeBtn_game {position:absolute; top:605px; left: 940px; cursor:pointer;}

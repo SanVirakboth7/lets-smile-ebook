@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart English Starter - Interactive e-Book for Classroom</title>
+<link href="../memory.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../js/jquery-1.8.3.js"></script>
+<script language="javascript" src="../js/memorygame.js"></script>
+<script language="javascript">
+	<!-- game card 이름 적어주면 됨  "무조건 6개 있어야함" -->
+	var card_data = new Array("washthecar", "ridemybike", "gotothepark", "goshopping", "dothelaundry", "cleanmyroom");
+	
+</script>
+</head>
+
+<body>
+<div>
+        <div id="boxcard">
+        	
+        </div>
+        <div id="boxbutton">
+            <span class="link">
+                <span id="count">0</span>
+                Clicks!
+            </span>
+            &nbsp;
+            <a href="javascript:" class="link" onclick="resetGame();">Reset</a>
+        </div>		<div class="cardNo" style="top:0px; left:5px;">1</div>
+		<div class="cardNo" style="top:0px; left:250px;">2</div>
+		<div class="cardNo" style="top:0px; left:495px;">3</div>
+		<div class="cardNo" style="top:0px; left:740px;">4</div>
+		<div class="cardNo" style="top:205px; left:5px;">5</div>
+		<div class="cardNo" style="top:205px; left:250px;">6</div>
+		<div class="cardNo" style="top:205px; left:495px;">7</div>
+		<div class="cardNo" style="top:205px; left:740px;">8</div>
+		<div class="cardNo" style="top:410px; left:5px;">9</div>
+		<div class="cardNo" style="top:410px; left:250px;">10</div>
+		<div class="cardNo" style="top:410px; left:495px;">11</div>
+		<div class="cardNo" style="top:410px; left:740px;">12</div>
+        <audio id="myAudio">
+        	<source src="">
+        </audio>
+<audio id="ddang">
+        	<source src="">
+        </audio>
+        <audio id="ending">
+        	<source src="">
+        </audio>
+</div>
+
+</body>
+</html>
+
+<!--
+           	<!- 이미지 ->
+            <div id="card1"  ><img src="../images/game/bag.png" data-id="F_bag" /></div>
+            
+            <div id="card2"  ><img src="../images/game/book.png" data-id="F_book" /></div>
+            
+            <div id="card3"  ><img src="../images/game/crayon.png" data-id="F_crayon" /></div>
+            
+            <div id="card4"  ><img src="../images/game/pen.png" data-id="F_pen" /></div>
+            
+            <div id="card5"  ><img src="../images/game/book.png" data-id="F_book" /></div>
+            
+            <div id="card6"  ><img src="../images/game/crayon.png" data-id="F_crayon" /></div>
+            
+          	<!- word -> 
+            <div id="card11" ><img src="../images/game/bag_word.png" data-id="F_bag" /></div>
+            
+            <div id="card12" ><img src="../images/game/book_word.png" data-id="F_book" /></div>
+            
+            <div id="card13" ><img src="../images/game/crayon_word.png" data-id="F_crayon" /></div>
+            
+            <div id="card14" ><img src="../images/game/pen_word.png" data-id="F_pen" /></div>
+            
+            <div id="card15" ><img src="../images/game/book_word.png" data-id="F_book" /></div>
+            
+            <div id="card16" ><img src="../images/game/crayon_word.png" data-id="F_crayon" /></div>
+            -->
